@@ -24,8 +24,10 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Hero />
+      <div className="bg-[#6758E0]">
+        <Navbar />
+        <Hero />
+      </div>
       <SectionTitle
         pretitle="Nextly Benefits"
         title=" Why should you use this landing page">
