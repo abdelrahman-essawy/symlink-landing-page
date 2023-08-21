@@ -93,7 +93,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="inline-block px-4 py-2  text-lg  no-underline rounded-md dark:text-gray-200 text-white 0 focus:outline-none dark:focus:bg-gray-800">Login</Link>
-          <Link href="/" className="px-6 py-2 font-bold  bg-[#FFCD6A] rounded-md md:ml-5">Sign up</Link>
+          <Link href="/" className="px-6 py-2 font-bold text-black bg-[#FFCD6A] rounded-md md:ml-5">Sign up</Link>
 
           {/* <ThemeChanger /> */}
         </div>

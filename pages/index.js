@@ -29,13 +29,14 @@ const Home = () => {
         <Navbar />
         <Hero />
       </div>
+
       <SectionTitle
         pretitle="a creative agency specializing in web, branding and digital marketing"
         title="Providing high quality design, web development, and marketing services that drive results">
         We design and develop highly curated web and web3 platforms for a myriad of industries. Our branding expertise allows us to create visually stunning, unique and coherent campaigns for brands to build and grow on solid foundations.
       </SectionTitle>
 
-      <div className="flex flex-col items-center justify-center py-10 bg-[#101840] dark:bg-gray-800">
+      <div className="flex flex-col items-center justify-center py-10 bg-[#101840] ">
         <Container>
           <div className="flex flex-col justify-center">
             <div className="text-xl text-center text-white mb-4">
@@ -44,19 +45,19 @@ const Home = () => {
             </div>
 
             <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-              <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <div className="pt-2 text-gray-400 ">
                 <AmazonLogo />
               </div>
-              <div className="text-gray-400 dark:text-gray-400">
+              <div className="text-gray-400 ">
                 <VerizonLogo />
               </div>
-              <div className="text-gray-400 dark:text-gray-400">
+              <div className="text-gray-400 ">
                 <MicrosoftLogo />
               </div>
-              <div className="pt-1 text-gray-400 dark:text-gray-400">
+              <div className="pt-1 text-gray-400 ">
                 <NetflixLogo />
               </div>
-              <div className="pt-2 text-gray-400 dark:text-gray-400">
+              <div className="pt-2 text-gray-400 ">
                 <SonyLogo />
               </div>
             </div>
