@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
+import Services from "../components/services";
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -35,6 +36,7 @@ const Home = () => {
         title="Providing high quality design, web development, and marketing services that drive results">
         We design and develop highly curated web and web3 platforms for a myriad of industries. Our branding expertise allows us to create visually stunning, unique and coherent campaigns for brands to build and grow on solid foundations.
       </SectionTitle>
+      <Services/>
 
       <div className="flex flex-col items-center justify-center py-10 bg-[#101840] ">
         <Container>
