@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 import Services from "../components/services";
-
+import Feedback from "../components/feedback";
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
@@ -65,6 +65,7 @@ const Home = () => {
             </div>
           </div>
         </Container>
+        
       </div>
       {/* <Benefits data={benefitOne} /> */}
       {/* <Benefits imgPos="right" data={benefitTwo} /> */}
@@ -89,6 +90,7 @@ const Home = () => {
       {/* </SectionTitle> */}
       {/* <Faq /> */}
       {/* <Cta /> */}
+      <Feedback  />
       <Footer />
       <PopupWidget />
     </>
